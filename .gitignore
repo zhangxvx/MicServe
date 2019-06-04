@@ -1,0 +1,10 @@
+#忽略modules
+node_modules
+
+#忽略压缩文件
+*.rar
+#忽略vscode配置
+.vscode
+
+#忽略Mic1
+Mic1

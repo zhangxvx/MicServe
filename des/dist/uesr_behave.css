@@ -1,0 +1,174 @@
+/*card*/
+
+/* .card-width8{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.width-custom {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.height8 {
+    height: 800px;
+}
+
+.height6 {
+    height: 600px;
+}
+
+.height51 {
+    height: 510px;
+}
+
+.overflowy {
+    overflow-y: auto;
+}
+
+/*返回顶部图标*/
+
+.ant-back-top {
+    bottom: 5px;
+    right: 10px;
+}
+
+/* 侧边栏布局 */
+
+.sider {
+    background-color: whitesmoke;
+}
+
+/*时间轴 */
+
+.ant-timeline-item:last-child .ant-timeline-item-tail {
+    /* border: none; */
+    display: block;
+    height: 50%;
+}
+
+.ant-timeline-item-head {
+    top: 13px;
+}
+
+.up-down {
+    left: -10px;
+}
+
+/*buttonGroup字体*/
+
+label {
+    font-weight: 400
+}
+
+/* DivderNone*/
+
+.divider-none {
+    height: 0px;
+}
+
+.divider-zero {
+    margin: 0;
+}
+
+/*Select*/
+
+.ant-select {
+    width: 120px;
+}
+
+.select-mul {
+    width: 350px;
+}
+
+/*button等高于30px*/
+
+.select-height {
+    height: 30px;
+}
+
+/* button左边距*/
+
+.btn-left {
+    margin-left: 20px;
+}
+
+/*选择按钮*/
+
+.radio-group {
+    padding-left: 30px;
+}
+
+/*span*/
+
+.span-left-right {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.span-left {
+    padding-left: 10px;
+}
+
+.span-right {
+    padding-right: 10px;
+}
+
+/*Input输入框*/
+
+.input-left-right {
+    width: 150px;
+}
+
+/*搜索框*/
+
+.ant-input-search {
+    width: 500px;
+}
+
+/*display*/
+
+.inline {
+    display: inline;
+}
+
+/*文字居中*/
+
+.text-center {
+    text-align: center;
+}
+
+/*折叠面板*/
+
+.panel-divider {
+    margin-bottom: 20px;
+}
+
+/* 表格 */
+/* 表格行字体颜色 */
+.ant-table-tbody > tr > td{
+    color: #1890ff; 
+    background-color: white;
+    font-weight: 500;
+}
+/* 嵌入表表头颜色 */
+.inner-table .ant-table-thead>tr>th{
+    background-color: GhostWhite
+}
+/* 嵌入表第一个表头（大表头） */
+.inner-table .ant-table-thead>tr:first-child > th{
+    background-color: Lavender;
+    /* font-size:large; */
+    font-weight: bold;
+}
+.inner-table .ant-table-thead>tr:only-child > th{
+    background-color: GhostWhite;
+    font-size: inherit;
+    font-weight: normal;
+}
+/*嵌入表padding */
+tr.ant-table-expanded-row>td{
+  padding: 10px;
+}
